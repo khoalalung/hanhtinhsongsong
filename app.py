@@ -12,4 +12,5 @@ x_new = x_new.reshape(-1,1)
 y_new = model.predict(x_new)
 
 if st. button('Predict'):
-	st.write('Revenue Prediction', y_new)
+	st.write('Revenue Prediction')
+	st.success(y_new)
