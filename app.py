@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LinearRegression
+from sklearn
 
 model = pickle.load(open('model.pickle', "rb"))
 
