@@ -13,4 +13,4 @@ y_new = model.predict(x_new)
 
 if st. button('Predict'):
 	st.write('Revenue Prediction')
-	st.success(y_new)
+	st.success(y_new[0][0])
